@@ -87,7 +87,7 @@ void thirdsensor() { // This function is for third sensor.
 void loop() {
   Serial.println("\n");
   firstsensor();
-  //secondsensor();//removed this line for the robot I built in NC which only has sensors 1 and 3(left and right)
+  secondsensor();
   thirdsensor();
   //delay(3);//this speeds the response up a little bit
 }
